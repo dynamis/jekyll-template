@@ -1,0 +1,11 @@
+{
+  "name": "Jekyll Boilerplate",
+  "description": "GitHub Pages など Jekyll プラグインが使えない環境での公開を想定したテンプレート",
+  "version": "1.0.0",
+  "author": "dynamis",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib": "~0.4.0"
+  }
+}

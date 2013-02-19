@@ -1,0 +1,12 @@
+{% capture dummytemp %}
+  {% if site.js.minified %}
+    {% assign jsext  = ".min.js" %}
+  {% else %}
+    {% assign jsext  = ".js" %}
+  {% endif %}
+  {% if site.css.minified %}
+    {% assign cssext = ".min.css" %}
+  {% else %}
+    {% assign cssext = ".css" %}
+  {% endif %}
+{% endcapture %}{% assign dummytemp = nil %}

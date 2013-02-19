@@ -1,0 +1,16 @@
+CACHE MANIFEST
+CACHE:
+manifest.webapp
+img/glyphicons-halflings-white.png
+img/glyphicons-halflings.png
+css/library.min.css
+css/main.min.css
+js/modernizr-2.6.2-respond-1.1.0.min.js
+js/library.min.js
+js/main.min.js
+index.html
+
+NETWORK:
+memo.zip
+package.webapp
+*

@@ -1,0 +1,4 @@
+---
+---
+{% if site.css.bootstrap %}{% include css/bootstrap.css %}{% endif %}
+{% if site.css.bootstrap-responsive %}{% include css/bootstrap-responsive.css %}{% endif %}
