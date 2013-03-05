@@ -1,7 +1,11 @@
-#foo {
-  
-}
-.bar {
-  
-}
-
+---
+---
+{% if site.css.minified %}
+{% if site.css.bootstrap %}{% include csslib/bootstrap.min.css %}{% endif %}
+{% if site.css.bootstrap-responsive %}{% include csslib/bootstrap-responsive.min.css %}{% endif %}
+{% include css/main.min.css %}
+{% else %}
+{% if site.css.bootstrap %}{% include csslib/bootstrap.css %}{% endif %}
+{% if site.css.bootstrap-responsive %}{% include csslib/bootstrap-responsive.css %}{% endif %}
+{% include css/main.css %}
+{% endif %}
